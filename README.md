@@ -226,7 +226,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Developed with ❤️ by [Rakibul Hasan](https://github.com/rbkhan007)**  
-© 2024-2026
 
 </div>
