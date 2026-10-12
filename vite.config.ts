@@ -1,44 +1,20 @@
-import tailwindcss from '@tailwindcss/vite';
-import react from '@vitejs/plugin-react';
-import path from 'path';
-import {defineConfig, loadEnv} from 'vite';
+import { defineConfig, loadEnv } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+import path from 'path'
 
-export default defineConfig(({mode}) => {
-  const env = loadEnv(mode, '.', '');
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, '.', '')
+
   return {
+    base: '/Sami-s-Tea-Stall/',   // 👈 THIS GOES HERE
+
     plugins: [react(), tailwindcss()],
-    define: {
-      'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
-    },
+
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
       },
     },
-    server: {
-      hmr: process.env.DISABLE_HMR !== 'true',
-      port: 8080,
-      host: true,
-    },
-    build: {
-      target: 'es2015',
-      minify: 'terser',
-      terserOptions: {
-        compress: {
-          drop_console: false,
-        },
-      },
-      rollupOptions: {
-        output: {
-          manualChunks: {
-            vendor: ['react', 'react-dom', 'react-router-dom'],
-            animation: ['framer-motion'],
-          },
-        },
-      },
-    },
-    optimizeDeps: {
-      include: ['react', 'react-dom', 'react-router-dom', 'framer-motion'],
-    },
-  };
-});
+  }
+})

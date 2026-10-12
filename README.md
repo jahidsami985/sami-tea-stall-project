@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="1200" alt="Homepage Preview" src="https://raw.githubusercontent.com/rbkhan007/Rakib-s-Tea-Stall/main/public/images/Homepage.png" />
+  <img width="1200" alt="Homepage Preview" src="https://raw.githubusercontent.com/rbkhan007/Sami-s-Tea-Stall/main/public/images/Homepage.png" />
 </div>
 
 # Sami's Tea Stall 🍵
@@ -7,8 +7,8 @@
 > A modern tea stall e-commerce website built with React, TypeScript, SQLite, and Express.js
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/rbkhan007/Rakib-s-Tea-Stall)](https://github.com/rbkib/Rakib-s-Tea-Stall/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/rbkhan007/Rakib-s-Tea-Stall)](https://github.com/rbkhan007/Rakib-s-Tea-Stall/network)
+[![GitHub stars](https://img.shields.io/github/stars/rbkhan007/Sami-s-Tea-Stall)](https://github.com/rbkhan007/Sami-s-Tea-Stall/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/rbkhan007/Sami-s-Tea-Stall)](https://github.com/rbkhan007/Sami-s-Tea-Stall/network)
 
 ---
 
@@ -63,10 +63,10 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/rbkhan007/Rakib-s-Tea-Stall.git
+git clone https://github.com/rbkhan007/Sami-s-Tea-Stall.git
 
 # Navigate to project directory
-cd Rakib-s-Tea-Stall
+cd Sami-s-Tea-Stall
 
 # Install dependencies
 npm install
