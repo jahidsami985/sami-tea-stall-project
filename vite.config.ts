@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '')
 
   return {
-    base: '/Sami-s-Tea-Stall/',   // 👈 THIS GOES HERE
+    base: '/',
 
     plugins: [react(), tailwindcss()],
 
